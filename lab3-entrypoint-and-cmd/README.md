@@ -59,8 +59,11 @@ greet.sh
 
 //#!/bin/sh
 echo "Welcome to $1 from $2"
+
+make executable:
 chmod +x greet.sh
-Updated Containerfile
+
+Updated Containerfile:
 FROM registry.access.redhat.com/ubi9/ubi-minimal
 
 COPY greet.sh /usr/local/bin/
